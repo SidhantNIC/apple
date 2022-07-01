@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPLE</title>
+</head>
+<body>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-color: black;
+            color: white;
+        }
+        .device{
+            height:100vh;
+            text-align: center;
+            padding-top: 10%;
+            display: none;
+        }
+
+            
+        @media (min-width:0px) and (max-width:120px){
+            #watch{
+                display: block;
+            }
+            #watch img{
+                width: 20px;
+            }
+            #watch h1{
+                font-size: 15px;
+            }
+            #watch h3{
+                font-size: 8px;
+
+            }
+        }
+        
+
+        @media (min-width:120px) and (max-width:200px){
+            #ipod{
+                display: block;
+            }
+            #ipod img{
+                width: 40px;
+            }
+            #ipod h1{
+                font-size: 20px;
+            }
+            #ipod h3{
+                font-size: 10px;
+
+            }
+        }
+
+        @media (min-width:200px) and (max-width:300px){
+            #iphone{
+                display: block;
+            }
+            #iphone img{
+                width: 50px;
+            }
+            #iphone h1{
+                font-size: 25px;
+            }
+            #iphone h3{
+                font-size: 10px;
+
+            }
+        }
+        @media (min-width:300px) and (max-width:700px){
+            #ipad{
+                display: block;
+            }
+            #ipad img{
+                width: 100px;
+            }
+            #ipad h1{
+                font-size: 35px;
+            }
+            #ipad h3{
+                font-size: 15px;
+
+            }
+        }
+        @media (min-width:700px) and (max-width:1450px){
+            #macbook{
+                display: block;
+            }
+            #macbook img{
+                width: 120px;
+            }
+            #macbook h1{
+                font-size: 30px;
+            }
+            #macbook h3{
+                font-size: 16px;
+
+            }
+        }
+
+        
+    </style>
+    <div class="device" id="watch">
+        <img src="/assets/logo.png" alt="">
+        <h1>Apple Watch</h1>
+        <h3>TIME MATTERS</h3>
+    </div>
+    <div class="device" id="ipod">
+        <img src="/assets/logo.png" alt="">
+        <h1>ipod</h1>
+        <h3>CHOOSE YOUR BEAT'S</h3>
+    </div>
+    <div class="device" id="iphone">
+        <img src="/assets/logo.png" alt="">
+        <h1>iphone</h1>
+        <h3>SMART PHONE CHANGE LIFE</h3>
+    </div>
+    <div class="device" id="ipad">
+        <img src="/assets/logo.png" alt="">
+        <h1>ipad</h1>
+        <h3>MAKE YOUR LIFE SMARTER</h3>
+    </div>
+    <div class="device" id="macbook">
+        <img src="/assets/logo.png" alt="">
+        <h1>Macbook Pro M1</h1>
+        <h3>DEVELOPER'S CHOICE</h3>
+    </div>
+    
+</body>
+</html>
